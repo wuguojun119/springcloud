@@ -1,0 +1,10 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/    #将自己注册到Eureka上面去
+server:
+  port: 8763
+spring:
+  application:
+    name: wuguojun
+
